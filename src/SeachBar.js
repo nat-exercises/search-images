@@ -1,8 +1,17 @@
 import React, { Component } from "react";
 
-export class SeachBar extends Component {
+class SeachBar extends Component {
   render() {
-    return <div>SeachBar</div>;
+    return (
+      <div className="ui segment">
+        <form className="ui form">
+          <div className="field">
+            <label>Image Search</label>
+            <input type="text" />
+          </div>
+        </form>
+      </div>
+    );
   }
 }
 

@@ -6,10 +6,10 @@ import ImageList from "./ImageList";
 
 function App() {
   return (
-    <>
+    <div className="ui container" style={{ marginTop: "10px" }}>
       <SeachBar />
       <ImageList />
-    </>
+    </div>
   );
 }
 
